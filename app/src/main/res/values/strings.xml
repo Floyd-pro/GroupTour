@@ -1,0 +1,869 @@
+<resources>
+    <string name="app_name">提姆游</string>
+    <string name="startlocation">开始定位</string>
+    <string name="stoplocation">停止定位</string>
+    <string name="title_user_info_change">用户信息更改</string>
+    <string name="title_team_info_change">队伍信息更改</string>
+    <string name="table_scope_title">选择一个表查看数据</string>
+
+    <string name="demo_name_layers">图层展示</string>
+    <string name="demo_title_layers">图层展示--LayersDemo</string>
+    <string name="demo_desc_layers">展示普通图、卫星图、交通流量图及百度城市热力图</string>
+    <string name="demo_name_control">地图操作功能</string>
+    <string name="demo_desc_control">介绍地图基本控制方法，对地图单击、长按、双击、截图的事件响应</string>
+    <string name="demo_desc_location">介绍定位图层的基本用法</string>
+    <string name="demo_name_geometry">自定义绘制功能，折线可点击</string>
+    <string name="demo_title_geometry">自定义绘制功能--GeometryDemo</string>
+    <string name="demo_desc_geometry">介绍自定义绘制点、线、多边形、圆等几何图形和文字</string>
+    <string name="demo_name_favorite">点收藏功能</string>
+    <string name="demo_title_favorite">点收藏功能--FavoriteDemo</string>
+    <string name="demo_desc_favorite">介绍如何创建、管理本地点数据</string>
+    <string name="demo_name_mass_transit_route">综合路线规划功能</string>
+    <string name="demo_title_mass_transit_route">综合路线规划功能--MassTransitRouteDemo</string>
+    <string name="demo_desc_mass_transit_route">介绍跨城、同城、综合路线规划及自定义图标方法</string>
+    <string name="demo_name_transit_route">公交路线规划功能</string>
+    <string name="demo_title_transit_route">公交路线规划功能--TransitRoutePlanDemo</string>
+    <string name="demo_desc_transit_route">介绍公交路线规划及自定义图标方法</string>
+    <string name="demo_name_walking_route">步行路线规划功能</string>
+    <string name="demo_title_walking_route">步行路线规划功能--WalkingRouteSearchDemo</string>
+    <string name="demo_desc_walking_route">介绍步行路线规划及自定义图标方法</string>
+    <string name="demo_name_biking_route">骑行路线规划功能</string>
+    <string name="demo_title_biking_route">骑行路线规划功能--BikingRouteSearchDemo</string>
+    <string name="demo_desc_biking_route">介绍骑行路线规划及自定义图标方法</string>
+    <string name="demo_name_driving_route">驾车路线规划功能</string>
+    <string name="demo_title_driving_route">驾车路线规划功能--DrivingRouteSearchDemo</string>
+    <string name="demo_desc_driving_route">介绍驾车线路规划、驾车策略、路况展示及自定义图标方法</string>
+    <string name="demo_name_route">室内路径规划功能</string>
+    <string name="demo_name_regeocode">逆地理编码功能</string>
+    <string name="demo_title_regeocode">逆地理编码功能--ReverseGeoCodeDemo</string>
+    <string name="demo_desc_regeocode">介绍地址信息与坐标之间的相互转换，获取周边的poi信息</string>
+    <string name="demo_name_geocode">地理编码功能</string>
+    <string name="demo_title_geocode">地理编码功能--GeoCodeDemo</string>
+    <string name="demo_desc_geocode">介绍地址信息与坐标之间的相互转换</string>
+    <string name="demo_name_recommendstop">推荐上车点功能</string>
+    <string name="demo_title_recommendstop">推荐上车点功能--RecommendStopDemo</string>
+    <string name="demo_desc_recommendstop">介绍推荐上车点功能</string>
+    <string name="demo_name_bus">公交线路查询功能</string>
+    <string name="demo_title_bus">公交线路查询功能--BusLineSearchDemo</string>
+    <string name="demo_desc_bus">介绍查询公交线路功能</string>
+    <string name="demo_name_open_baidumap">调启百度地图</string>
+    <string name="demo_title_open_baidumap">调启百度地图--OpenBaiduMap</string>
+    <string name="demo_desc_open_baidumap">介绍如何调启百度地图实现自身业务功能</string>
+    <string name="demo_name_cloud">LBS.云检索功能</string>
+    <string name="demo_title_cloud">LBS.云检索功能--CloudSearchDemo</string>
+    <string name="demo_desc_cloud">介绍如何使用LBS.云检索用户自有数据</string>
+    <string name="demo_name_weather">天气检索功能</string>
+    <string name="demo_title_weather">天气检索功能--WeatherSearchDemo</string>
+    <string name="demo_desc_weather">介绍如何检索天气</string>
+    <string name="demo_name_heatmap">热力图功能</string>
+    <string name="demo_desc_heatmap">介绍如何以热力图形式显示用户自有数据</string>
+    <string name="demo_name_opengl">OpenGL绘制功能</string>
+    <string name="demo_title_opengl">OpenGL绘制功能--OpenGLDemo</string>
+    <string name="demo_title_cluster">点聚合功能--MarkerClusterDemo</string>
+    <string name="demo_name_tileoverlay">瓦片图功能</string>
+    <string name="demo_desc_cluster">介绍如何实现多个Marker点的点聚合功能，适合添加大批量marker场景</string>
+    <string name="demo_title_tileoverlay">瓦片图功能--TileOverlayDemo</string>
+    <string name="demo_desc_tileoverlay">介绍如何在地图上添加自定义的瓦片图</string>
+    <string name="demo_desc_districsearch">介绍如何使用行政区域检索，并绘制区域边界</string>
+    <string name="demo_title_districsearch">行政区域检索--DistrictSearchDemo</string>
+    <string name="demo_name_districsearch">行政区域检索</string>
+    <string name="demo_name_indoorsearch">室内图检索功能</string>
+    <string name="demo_title_indoorsearch">室内图检索--IndoorSearchDemo</string>
+    <string name="demo_desc_indoorsearch">介绍在室内图中进行室内POI检索</string>
+    <string name="demo_name_track_show">小车轨迹平滑移动</string>
+    <string name="demo_title_track_show">小车轨迹平滑移动--TrackShowDemo</string>
+    <string name="demo_desc_track_show">介绍小车轨迹平滑移动的实现</string>
+
+
+    <string name="demo_title_util">实用工具</string>
+    <string name="demo_desc_util">介绍距离计算、坐标转换、调启百度地图功能等工具的使用</string>
+    <string name="demo_title_distance">两点间距离--DistanceUtilDemo</string>
+    <string name="demo_desc_distance">两点间距离计算</string>
+    <string name="demo_name_contains">点与圆、多边形的位置关系</string>
+    <string name="demo_title_contains">点与圆、多边形的位置关系--SpatialRelationDemo</string>
+    <string name="demo_desc_contains">判断点与圆、多边形的位置关系</string>
+    <string name="demo_title_routeplan">路线规划</string>
+    <string name="demo_desc_routeplan">介绍跨城交通、公交、驾车、步行、骑行五种线路规划方法</string>
+    <string name="demo_name_indoorroute">室内路线规划</string>
+    <string name="demo_title_indoorroute">室内路线规划--IndoorRouteDemo</string>
+    <string name="demo_desc_indoorroute">介绍室内路线规划功能</string>
+    <string name="demo_title_searchlist">检索地图数据</string>
+    <string name="demo_desc_searchlist">介绍地图检索功能，包括POI检索，公交信息检索，地理编码检索等</string>
+    <string name="demo_name_poidetailsearch">详情POI搜索功能</string>
+    <string name="demo_title_poidetailsearch">详情POI搜索功能--PoiDetailSearchDemo</string>
+    <string name="demo_desc_poidetailsearch">介绍使用UID搜索POI详情功能</string>
+    <string name="demo_name_poicitysearch">城市POI搜索功能</string>
+    <string name="demo_title_poicitysearch">城市POI搜索功能--PoiCitySearchDemo</string>
+    <string name="demo_desc_poicitysearch">介绍城市POI查询，POI父子节点展示</string>
+    <string name="demo_name_poinearbysearch">周边POI搜索功能</string>
+    <string name="demo_title_poinearbysearch">周边POI搜索功能--PoiNearbySearchDemo</string>
+    <string name="demo_desc_poinearbysearch">介绍周边POI查询、POI父子节点展示</string>
+    <string name="demo_name_poiboundsearch">矩形POI搜索功能</string>
+    <string name="demo_title_poiboundsearch">矩形POI搜索功能--PoiBoundSearchDemo</string>
+    <string name="demo_desc_poiboundsearch">介绍矩形POI查询、POI父子节点展示</string>
+    <string name="demo_name_poisugsearch">提示POI搜索功能</string>
+    <string name="demo_title_poisugsearch">提示POI搜索功能--PoiSugSearchDemo</string>
+    <string name="demo_desc_poisugsearch">介绍地点检索输入提示</string>
+    <string name="demo_title_drawlist">在地图上绘制</string>
+    <string name="demo_desc_drawlist">介绍自定义绘制点、线、多边形、圆等几何图形和文字</string>
+    <string name="demo_name_polyline">绘制线</string>
+    <string name="demo_title_polyline">绘制线--PolylineDemo</string>
+    <string name="demo_desc_polyline">介绍在地图上绘制线并添加事件响应</string>
+    <string name="demo_name_marker_animation">Marker动画功能</string>
+    <string name="demo_title_marker_animation">Marker动画功能--MarkerAnimationDemo</string>
+    <string name="demo_desc_marker_animation">展示Marker动画:缩放、平移、旋转、透明、组合动画</string>
+    <string name="demo_name_circle">绘制圆</string>
+    <string name="demo_title_circle">绘制圆--CircleDemo</string>
+    <string name="demo_desc_circle">介绍在地图上绘制圆</string>
+    <string name="demo_name_arc">绘制弧</string>
+    <string name="demo_title_arc">绘制弧--ArcDemo</string>
+    <string name="demo_desc_arc">介绍在地图上绘制弧线</string>
+    <string name="demo_name_marker">覆盖物功能</string>
+    <string name="demo_title_marker">绘制点标记--MarkerDemo</string>
+    <string name="demo_desc_marker">介绍Marker绘制，Marker动画、Marker响应事件、InfoWindow展示、InfoWindow响应事件</string>
+    <string name="demo_name_polygon">绘制多边形</string>
+    <string name="demo_title_polygon">绘制多边形--PolygonDemo</string>
+    <string name="demo_desc_polygon">介绍在地图上绘制多边形</string>
+    <string name="demo_name_groundoverlay">自定义图片图层</string>
+    <string name="demo_title_groundoverlay">自定义图片图层--GroundOverlayDemo</string>
+    <string name="demo_desc_groundoverlay">介绍在地图上添加图片覆盖物</string>
+    <string name="demo_title_tile">自定义瓦片图--TileOverlayDemo</string>
+    <string name="demo_desc_tile">介绍如何在地图上添加自定义的瓦片图</string>
+    <string name="demo_title_heat">自定义热力图--HeatMapDemo</string>
+    <string name="demo_desc_heat">介绍如何以热力图形式显示用户自有数据</string>
+    <string name="demo_title_layerlist">图层展示</string>
+    <string name="demo_desc_layerlist">卫星图、交通流量图、百度城市热力图、3D地图及定位图层的展示</string>
+    <string name="demo_title_layertraffic">路况图及热力图--LayerTrafficAndHeatMapDemo</string>
+    <string name="demo_name_layertraffic">路况图及热力图功能</string>
+    <string name="demo_desc_layertraffic">展示地图中路况和热力图的使用</string>
+    <string name="demo_name_locationtype">显示定位（定位模式切换)</string>
+    <string name="demo_title_locationtype">显示定位（定位模式切换)--LocationTypeDemo</string>
+    <string name="demo_desc_locationtype">展示定位图层三种定位模式的使用</string>
+    <string name="demo_name_locationcustom">显示定位（自定义样式)</string>
+    <string name="demo_title_locationcustom">显示定位（自定义样式)--LocationCustomDemo</string>
+    <string name="demo_desc_locationcustom">展示定位图层自定义样式的使用</string>
+    <string name="demo_title_layerbuilding">3D楼宇--LayerBuildingDemo</string>
+    <string name="demo_name_layerbuilding">3D楼宇</string>
+    <string name="demo_desc_layerbuilding">图层展示（3D楼宇）</string>
+
+    <string name="demo_title_createmaplist">创建地图</string>
+    <string name="demo_name_custom">个性化地图</string>
+    <string name="demo_desc_createmaplist">基础地图、个性化地图、TextureMapView、离线地图、室内地图以及多地图创建</string>
+    <string name="demo_title_custommap">个性化地图--CustomMapDemo</string>
+    <string name="demo_desc_custommap">介绍个性化地图的创建和使用</string>
+    <string name="demo_name_map_type">基础地图类型</string>
+    <string name="demo_name_offline">离线地图</string>
+    <string name="demo_title_offline">离线地图功能--OfflineDemo</string>
+    <string name="demo_desc_offline">介绍如何下载和使用离线地图</string>
+    <string name="demo_name_map_fragment">基于MapFragment的基本地图</string>
+    <string name="demo_title_map_fragment">MapFragment使用--MapFragmentDemo</string>
+    <string name="demo_desc_map_fragment">创建一个基于Fragment的地图框架</string>
+    <string name="demo_name_indoor">室内图展示</string>
+    <string name="demo_title_indoor">室内图--IndoorMapDemo</string>
+    <string name="demo_desc_indoor">介绍室内图功能，显示室内图</string>
+    <string name="demo_name_multimap">多地图展示</string>
+    <string name="demo_title_multimap">多地图展示--MultiMapViewDemo</string>
+    <string name="demo_desc_multimap">在一个Activity中创建多个地图展示，不同城市，不同logo位置</string>
+    <string name="demo_name_texturemapview">TextureMapView</string>
+    <string name="demo_title_texturemapview">TextureMapView使用--TextureMapViewDemo</string>
+    <string name="demo_desc_texturemapview">地图由TextureView渲染</string>
+    <string name="demo_title_mapcontrollist">与地图交互</string>
+    <string name="demo_desc_mapcontrollist">介绍地图基本控制方法，事件响应、手势控制以及UI控件的显示与隐藏</string>
+    <string name="demo_name_gesture">手势设置</string>
+    <string name="demo_title_gesture">手势设置--UISettingsDemo</string>
+    <string name="demo_desc_gesture">缩放、平移、旋转、俯视等手势的开启和禁用</string>
+    <string name="demo_name_mapstatus">事件交互（地图状态)</string>
+    <string name="demo_title_mapstatus">事件交互（地图状态)--MapStatusDemo</string>
+    <string name="demo_desc_mapstatus">地图状态改变的事件响应</string>
+    <string name="demo_name_mapclick">事件交互(点击)</string>
+    <string name="demo_title_mapclick">事件交互(点击)--MapClickDemo</string>
+    <string name="demo_desc_mapclick">对地图单击、长按、双击的事件响应</string>
+    <string name="demo_title_map_type">地图类型--MapTypeDemo</string>
+    <string name="demo_desc_map_type">普通地图、空白地图、卫星地图展示</string>
+    <string name="demo_title_multimapview">多地图展示--MultiMapViewDemo</string>
+    <string name="demo_desc_multimapview">在一个Activity中创建多个地图展示</string>
+    <string name="demo_name_logosetting">控件设置</string>
+    <string name="demo_title_logosetting">控件设置--ViewSettingDemo</string>
+    <string name="demo_desc_logosetting">logo、比例尺设置</string>
+    <string name="demo_name_mapbounds">设置地图显示区域及地图更新</string>
+    <string name="demo_title_mapbounds">更新地图状态--MapBoundsDemo</string>
+    <string name="demo_desc_mapbounds">设置更新地图状态，设置地图显示范围，设置地图中心点以及缩放级别，设置显示在规定宽高中的地图地理范围等</string>
+    <string name="demo_name_limitbounds">设置地图的可移动范围</string>
+    <string name="demo_title_limitbounds">设置地图的可移动范围--MapLimitBoundsDemo</string>
+    <string name="demo_desc_limitbounds">设置地图的可移动范围</string>
+    <string name="demo_name_padding">设置地图操作区Padding</string>
+    <string name="demo_title_padding">设置地图操作区--PaddingDemo</string>
+    <string name="demo_desc_padding">设置地图操作区距屏幕的距离、给MapView添加一个子View</string>
+    <string name="demo_name_mappoi">控制底图标注显示</string>
+    <string name="demo_title_mappoi">控制底图标注显示--MapPoiDemo</string>
+    <string name="demo_desc_mappoi">控制是否显示底图默认标注</string>
+    <string name="demo_name_snapshot">截图</string>
+    <string name="demo_title_snapshot">截图--SnapShotDemo</string>
+    <string name="demo_desc_snapshot">截图及其事件响应</string>
+
+    <string name="demo_title_custom_map_preview">个性化地图预览</string>
+    <string name="demo_desc_custom_map_preview">扫描二维码预览个性化地图编辑器生成的个性化地图样式</string>
+
+    <string name="demo_desc_opengl">介绍如何使用OpenGL绘制在地图中进行绘制</string>
+    <string name="key_error">"请在  DemoApplication.java文件输入正确的授权Key！\r\n申请地址：http://dev.baidu.com/wiki/static/imap/key/"</string>
+    <string name="navi_tip">百度地图SDK支持通过相关的接口，调启百度地图客户端（v5.0以上）导航和Web端百度地图导航。</string>
+    <string name="title_activity_cloud_search_demo">云检索使用介绍</string>
+    <string name="cloud_search_tips"> \t\tLBS.云是百度地图针对LBS开发者推出的平台级服务。结合已有的地图API和SDK服务。通过开放服务端存储和计算能力,提供海量位置数据存储、检索、展示一体化解决方案。\n\n
+          \t\t该服务对开发者免费开放。测试demo里写入了测试的ak。开发者可以使用测试ak查看 LBS.云检索的效果。如果开发者要使用自己的数据，请在申请ak后替换demo中的ak。\n\n
+          \t\t如有任何关于LBS.云服务的问题,诸如如何申请ak、如何存储和检索数据等，请访问百度地图官方“LBS开放平台”。地址：http://lbsyun.baidu.com/  \n
+</string>
+    <string name="panorama_tips">\t\t百度地图SDK为您免费提供全景图的功能。\n
+      \t\t利用接口，可查询、开启并操作更丰富的全景图。\n
+      \t\t以下三个示例分别向您展示了三种调启全景图的入口，您可在实际操作中灵活运用。\n
+      \t\t全景图还提供了Item绘制能力，您可在第三个示例中查看具体使用方法。</string>
+    <string name="panorama_poi_tips"> 首先根据关键词进行POI检索，点击地图上的POI点，根据POI的UID进入全景</string>
+    <string name="panorama_geo_tips">单击地图以选取坐标点</string>
+    <string name="demo_title_share">短串分享功能 --ShareDemo</string>
+    <string name="demo_name_share">短串分享</string>
+    <string name="demo_desc_share">介绍关键词查询、suggestion查询和查看餐饮类Place详情页功能</string>
+    <string name="share_tip">\t\t短串分享是指，用户搜索查询后得到的每一个地理位置结果将会对应一条短串（短链接），用户可以通过短信、邮件或第三方分享组件（如微博、微信等）把短串分享给其他用户从而实现地理位置信息的分享。当其他用户收到分享的短串后，点击短串即可打开手机上的百度地图客户端或者手机浏览器进行查看。\n\n
+                \t\t例如，用户搜索“百度大厦”后通过短信使用短串分享功能把该地点分享给好友，好友点击短信中的短串“http://j.map.baidu.com/XLCrk”后可以调起百度地图客户端或者手机浏览器查看“百度大厦”的地理位置信息。\n\n
+                \t\t目前短串分享功能暂时开放了“POI搜索结果分享”、“反向地理编码结果分享”和"路线规划路线结果分享(包含步行、骑行、驾车、公交)"，日后会开放更多的功能，欢迎广大开发者使用短串分享功能。
+</string>
+    <string name="texturemap_hint">\t\t名称：TextureMapView（实现地图由TextureView
+        渲染）\n\n
+    \t\t前提：Android 4.0以上系统，并开启加速功能，才能使用TextureMapView \n\n
+    \t\t用法：解决原MapView基于系统GLSurfaceView导致tabhost切换或滚动闪屏、白边等问题</string>
+    <string name="tileoverlay_online_urlhint">放入图片URL，点击在线</string>
+    <string name="tileoverlay_online">在线方式</string>
+    <string name="tileoverlay_offline">离线方式</string>
+    <string name="hide_poiinfo">隐藏地图上的poi标注</string>
+    <string name="title_activity_panorama_activity_main">全景图功能</string>
+    <string name="title_activity_panorama_poi_selector">通过POI进入全景图</string>
+    <string name="title_activity_panorama_geo_selector">通过地理坐标进入全景图</string>
+    <string name="title_activity_panorama_demo">全景图功能</string>
+    <string name="title_activity_clustering_demo">ClusteringDemoActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_marker_cluster_demo">点聚合功能</string>
+    <string name="title_markercluster_desc">\t\t缩小地图，以显示标注物的聚合点 \n
+    \t\t放大地图，显示Marker点 \n</string>
+    <string name="title_activity_texture_map_view_demo">TextureMapViewDemo</string>
+    <string name="title_activity_poi_near_by_search_demo">PoiNearBySearchDemo</string>
+    <string name="instruction">当设计的UI与地图部分重叠时，设置地图的padding值,以防止UI遮挡</string>
+    <string name="search_weather">检索天气</string>
+    <string name="detail_weather">天气详情</string>
+
+<!--    环信的字符串-->
+    <string name="demo_app_product_name">环信即时通讯产品</string>
+
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+
+    <string name="save">保存</string>
+    <string name="required">必填</string>
+    <string name="submit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="loading">加载中&#8230;</string>
+    <string name="request">请求中&#8230;</string>
+    <string name="finish">完成</string>
+
+    <string name="em_main_title_home">消息</string>
+    <string name="em_main_title_friends">通讯录</string>
+    <string name="em_main_title_discover">发现</string>
+    <string name="em_main_title_me">我</string>
+    <string name="main_title_grouptour">提姆</string>
+    <string name="main_title_plus">探索</string>
+
+
+    <string name="demo_title_image_grid">拍摄及视频</string>
+
+    <string name="em_dialog_default_title">提示</string>
+
+    <string name="main_home">首页</string>
+    <string name="main_friend">联系人</string>
+    <string name="main_set">设置</string>
+
+    <string name="em_login_name_hint">用户名</string>
+    <string name="em_login_password_hint">密码</string>
+    <string name="em_login_token_hint">token</string>
+    <string name="em_login_btn">登\u0020录</string>
+    <string name="em_login_tv_register">注册账号</string>
+    <string name="em_login_tv_token">token登录</string>
+    <string name="em_login_tv_pwd">密码登录</string>
+    <string name="em_login_tv_server_set">服务器配置</string>
+    <string name="em_login_btn_info_incomplete">用户名或者密码不能为空</string>
+    <string name="em_login_failed">登录失败</string>
+    <string name="em_login_agreement">同意《环信服务条款》与《环信隐私协议》</string>
+
+    <string name="em_register_btn">注\u0020册</string>
+    <string name="em_register_password_confirm_hint">确认密码</string>
+    <string name="em_register_failed">注册失败</string>
+    <string name="em_register_success">注册成功，请登录</string>
+    <string name="em_register_privacy_agreement_url">http://www.easemob.com/protocol</string>
+    <string name="em_register_service_agreement_url">http://www.easemob.com/agreement</string>
+
+    <string name="em_password_confirm_error">您输入的密码不一致，请重新输入</string>
+
+    <string name="em_error_network_error">当前网络不可用</string>
+    <string name="em_error_not_login">未登录过环信</string>
+    <string name="em_error_parse_error">解析错误</string>
+    <string name="em_error_err_unknown">网络问题请稍后重试</string>
+    <string name="em_err_image_android_min_version">上传图片只支持4.4版本以上</string>
+    <string name="em_err_file_not_exist">文件不存在</string>
+    <string name="em_add_self_error">不能添加自己</string>
+    <string name="em_friend_error">此用户已是你的好友</string>
+    <string name="em_friend_black_error">此用户已是你好友(被拉黑状态)，从黑名单列表中移出即可</string>
+    <string name="em_delete_sys_msg_error">删除失败或不存在该消息</string>
+    <string name="em_error_group_no_members">没有队伍成员</string>
+    <string name="em_error_user_already_exist">注册用户名已存在，请重新输入</string>
+
+    <string name="demo_error_user_authentication_failed">您输入的用户名或密码不正确</string>
+    <string name="demo_error_user_already_exist">注册用户名已存在，请重新输入</string>
+    <string name="demo_error_file_too_large">附件大小不能超过10M</string>
+
+    <string name="em_server_set_title">使用自定义服务器？</string>
+    <string name="em_server_set_server_hint">demo已经绑定以下环境设置，如果需要修改，请重启App进行设置。</string>
+    <string name="em_server_set_appkey">Appkey</string>
+    <string name="em_server_set_apns_cert_name">apns证书名称</string>
+    <string name="em_server_set_specify_server">使用私有服务器:</string>
+    <string name="em_server_set_server_address">IM服务器地址</string>
+    <string name="em_server_set_server_port">端口号</string>
+    <string name="em_server_set_rest_server_address">REST服务器地址</string>
+    <string name="em_server_set_https_set">只使用Https:</string>
+    <string name="em_server_set_button_reset_text">重置服务器设置</string>
+    <string name="em_server_set_dialog_reset">是否恢复默认服务器设置？</string>
+    <string name="em_server_set_button_text">保\u0020存\u0020配\u0020置</string>
+    <string name="em_server_set_appkey_empty_hint">请设置Appkey</string>
+    <string name="em_server_set_im_server_empty_hint">请设置IM服务器地址</string>
+    <string name="em_server_set_im_port_empty_hint">请设置IM端口号</string>
+    <string name="em_server_set_rest_server_empty_hint">请设置REST服务器地址</string>
+
+    <string name="em_empty_layout_content">寻找自我 保持本色</string>
+
+    <string name="were_mentioned">[有人@我]</string>
+    <string name="were_not_send_msg">[草稿]</string>
+    <string name="em_chat_et_hint">输入了什么东西</string>
+
+    <string name="em_search_text_hint">搜索</string>
+
+    <string name="em_conversation_menu_video">音视频会议</string>
+    <string name="em_conversation_menu_group">创建队伍</string>
+    <string name="em_conversation_menu_friend">添加好友</string>
+    <string name="em_conversation_menu_search_friend">添加好友</string>
+    <string name="em_conversation_menu_search_group">找队伍</string>
+    <string name="em_conversation_menu_scan">扫一扫</string>
+    <string name="em_conversation_system_notification">系统通知</string>
+
+    <string name="demo_system_agree_invite">您已同意%1$s的好友请求</string>
+    <string name="demo_system_agree_remote_user_apply_to_join_group">您已同意%1$s的入队申请</string>
+    <string name="demo_system_agree_received_remote_user_invitation">您已同意%1$s的入队邀请</string>
+    <string name="demo_system_decline_invite">您已拒绝%1$s的好友请求</string>
+    <string name="demo_system_decline_remote_user_apply_to_join_group">您已拒绝%1$s的入队申请</string>
+    <string name="demo_system_decline_received_remote_user_invitation">您已拒绝%1$s的入队邀请</string>
+    <string name="demo_system_other_decline_invite">%1$s拒绝了您的好友请求</string>
+    <string name="demo_system_other_decline_remote_user_apply_to_join_group">%1$s拒绝了您的入队申请</string>
+    <string name="demo_system_other_decline_received_remote_user_invitation">%1$s拒绝了您的入队邀请</string>
+
+    <string name="em_add_contact_item_button_text">添加好友</string>
+    <string name="em_add_contact_item_button_text_added">已添加</string>
+    <string name="em_add_contact_not_add_myself">不能添加自己</string>
+    <string name="em_add_contact_user_already_in_contactlist">此用户已是你好友(被拉黑状态)，从黑名单列表中移出即可</string>
+    <string name="em_add_contact_this_user_is_already_your_friend">此用户已是你的好友</string>
+    <string name="em_add_contact_add_a_friend">加个好友呗</string>
+    <string name="em_add_contact_send_successful">已发送好友邀请</string>
+
+    <string name="em_friends_new_chat">新的好友</string>
+    <string name="em_friends_group_chat">队伍</string>
+    <string name="em_friends_label">标签</string>
+    <string name="em_friends_chat_room">聊天室</string>
+    <string name="em_friends_official_account">公众号</string>
+    <string name="em_friends_av_conference">音视频会议</string>
+    <string name="em_friends_move_into_the_blacklist_new">移入到黑名单</string>
+    <string name="em_friends_move_out_the_blacklist_new">移出黑名单</string>
+    <string name="em_friends_move_out_the_blacklist_hint">是否移出黑名单？</string>
+    <string name="em_friends_move_into_blacklist_success">已将用户加入黑名单</string>
+    <string name="em_friends_move_out_blacklist_success">已将用户移出黑名单</string>
+
+    <string name="em_friends_detail_title">个人资料</string>
+    <string name="em_friends_detail_note">设置备注</string>
+    <string name="em_friends_detail_chat">发消息</string>
+    <string name="em_friends_detail_voice">语音通话</string>
+    <string name="em_friends_detail_video">视频通话</string>
+    <string name="em_friends_detail_add_contact">添加到通讯录</string>
+    <string name="em_friends_detail_add_black">加入黑名单</string>
+
+    <string name="em_friends_group_contact_manage">我管理的</string>
+    <string name="em_friends_group_contact_participate">我参与的</string>
+    <string name="em_friends_group_contact_title">队伍列表</string>
+    <string name="em_friends_group_public">公开队伍</string>
+    <string name="em_friends_group_join">队伍列表</string>
+
+    <string name="em_friends_chat_room_contact_title">聊天室列表</string>
+    <string name="em_friends_chat_room_create">创建聊天室</string>
+
+    <string name="demo_contact_add_black">%1$s已添加至黑名单</string>
+
+    <string name="em_chat_pick_user_title">选择联系人</string>
+
+    <string name="em_chat_delete_title">确认删除？</string>
+
+    <string name="em_single_set_title">聊天详情</string>
+    <string name="em_single_search_history">查找聊天记录</string>
+    <string name="em_single_clear_history">清空聊天记录</string>
+    <string name="em_single_conversation_top">会话置顶</string>
+    <string name="em_single_call_type">选择通话类型</string>
+
+    <string name="em_chat_delete_conversation">您确认要清空所有聊天记录吗？</string>
+    <string name="em_chat_group_detail_title">队伍信息</string>
+    <string name="em_chat_group_detail_group_member">队伍成员</string>
+    <string name="em_chat_group_detail_member_num">%1$d人</string>
+    <string name="em_chat_group_detail_name">队伍名称</string>
+    <string name="em_chat_group_detail_share_file">共享文件</string>
+    <string name="em_chat_group_detail_announcement">队伍公告</string>
+    <string name="em_chat_group_detail_announcement_hint">请输入队公告</string>
+    <string name="em_chat_group_detail_history">查找聊天记录</string>
+    <string name="em_chat_group_detail_clear_history">清空聊天记录</string>
+    <string name="em_chat_group_detail_clear_history_warning">您确认要清空所有聊天记录吗？</string>
+    <string name="chat_group_detail_destination">目的地</string>
+    <string name="chat_group_detail_depature_datetime">出发日期</string>
+    <string name="chat_group_detail_destination_setting">目的地设置</string>
+    <string name="chat_group_detail_depature_datetime_setting">出发日期设置</string>
+    <string name="em_chat_group_detail_member_manage">队伍管理</string>
+    <string name="em_chat_group_detail_introduction">队伍介绍</string>
+    <string name="chat_group_detail_schedule">队伍行程表</string>
+    <string name="em_chat_group_detail_introduction_hint">请输入队伍介绍</string>
+    <string name="chat_group_detail_schedule_hint">请输入队伍行程表内容</string>
+    <string name="em_chat_group_detail_not_disturb">消息免打扰</string>
+    <string name="em_chat_group_detail_off_push">屏蔽离线消息推送</string>
+    <string name="em_chat_group_detail_top">会话置顶</string>
+    <string name="em_chat_group_detail_refund">退出队伍</string>
+    <string name="em_chat_group_detail_dissolve">解散队伍</string>
+    <string name="em_chat_group_save">保存</string>
+    <string name="em_chat_group_shared_files_upload">上传</string>
+    <string name="em_chat_group_invite_group_member">邀请成员</string>
+    <string name="em_chat_group_select_contact">选择联系人</string>
+    <string name="em_chat_group_select_contact_save">保存</string>
+    <string name="em_chat_group_delivery_ack">队伍回执</string>
+    <string name="em_chat_group_read_ack">阅读回执</string>
+    <string name="em_chat_group_read_ack_send">发送</string>
+    <string name="em_chat_group_read_ack_hint">请输入需要回执的消息内容</string>
+    <string name="em_chat_group_black_manage">黑名单管理</string>
+    <string name="em_chat_group_mute_manage">禁言管理</string>
+    <string name="chat_group_team_detail_setting">队伍资料设置</string>
+    <string name="em_chat_group_authority_transfer">管理员/队伍负责人移交</string>
+
+    <string name="em_group_member_type_title">队伍成员</string>
+    <string name="em_group_member_type_admin">队伍管理员</string>
+    <string name="em_group_member_type_member">队伍成员</string>
+    <string name="em_group_member_type_member_num">共%1$d人</string>
+
+    <string name="demo_group_member_add_admin">%1$s已成为新的管理员</string>
+    <string name="demo_group_member_remove_admin">%1$s已被移出管理员</string>
+    <string name="demo_group_member_add_black">%1$s已被添加至黑名单</string>
+    <string name="demo_group_member_remove_black">%1$s已被移出黑名单</string>
+    <string name="demo_group_member_mute">%1$s已被禁言</string>
+    <string name="demo_group_member_remove_mute">%1$s已被解除禁言</string>
+
+    <string name="demo_group_member_remove">%1$s已被移除</string>
+    <string name="demo_group_member_invite">已向%1$s发出入队邀请</string>
+    <string name="demo_group_destroy">队伍已删除</string>
+
+    <string name="demo_chat_room_destroy">聊天室已删除</string>
+    <string name="demo_chat_room_add_member">%1$s已被添加至聊天室</string>
+    <string name="demo_chat_room_remove_member">%1$s已被移除</string>
+    <string name="demo_chat_room_modify_name">聊天室名称已被修改</string>
+    <string name="demo_chat_room_modify_description">聊天室描述已被修改</string>
+
+    <string name="em_group_new_title">创建队伍</string>
+    <string name="em_group_new_save">完成</string>
+    <string name="em_group_new_name">名称</string>
+    <string name="em_group_new_name_hint">请输入队伍名称</string>
+    <string name="em_group_new_profile">简介</string>
+    <string name="em_group_new_profile_hint">请输入队伍简介</string>
+    <string name="em_group_max_users">队伍人数</string>
+    <string name="em_group_set_max_users">队伍人数</string>
+    <string name="em_group_members">队伍成员</string>
+    <string name="em_group_new_if_public">是否公开队伍</string>
+    <string name="em_group_new_if_public_uncheck_hint">其他用户不能查找到此队伍</string>
+    <string name="em_group_new_if_public_check_hint">其他用户可以查找到此队伍</string>
+    <string name="em_group_new_open_invite">队伍成员是否有邀请权限</string>
+    <string name="em_group_new_open_invite_uncheck_hint">只允许队伍负责人邀请用户进队伍</string>
+    <string name="em_group_new_open_invite_check_hint">允许队伍成员邀请用户进队伍</string>
+    <string name="em_group_new_need_owner_approval_public">加入是否需要验证</string>
+    <string name="em_group_new_need_owner_approval_uncheck_hint">用户可以直接加入队伍</string>
+    <string name="em_group_new_need_owner_approval_check_hint">用户加入队伍需要队伍负责人同意</string>
+    <string name="em_group_new_name_cannot_be_empty">请完善请队伍信息</string>
+    <string name="em_group_new_member_limit">队伍人数范围3-3000人</string>
+    <string name="em_group_new_success">队伍创建成功</string>
+    <string name="em_group_new_invite_join_group">%1$s邀请加入队：%2$s</string>
+
+    <string name="em_authority_menu_add_admin">设为管理员</string>
+    <string name="em_authority_menu_remove_admin">移除管理员权限</string>
+    <string name="em_authority_menu_transfer_owner">移交队伍负责人权限</string>
+    <string name="em_authority_menu_remove_member">删除成员</string>
+    <string name="em_authority_menu_add_black">添加到黑名单</string>
+    <string name="em_authority_menu_remove_black">从黑名单移除</string>
+    <string name="em_authority_menu_mute">禁言</string>
+    <string name="em_authority_menu_unmute">移除禁言</string>
+
+    <string name="em_authority_menu_admin_list">管理员列表</string>
+    <string name="em_authority_menu_member_list">成员列表</string>
+    <string name="em_authority_menu_mute_list">禁言列表</string>
+    <string name="em_authority_menu_black_list">黑名单列表</string>
+    <string name="em_authority_menu_add_contact">邀请队伍成员</string>
+
+    <string name="em_authority_remove_group">是否将该成员移除队伍？</string>
+
+    <string name="em_chat_room_detail_title">聊天室信息</string>
+    <string name="em_chat_room_detail_id">聊天室ID</string>
+    <string name="em_chat_room_detail_room_name">名称</string>
+    <string name="em_chat_room_detail_description">描述</string>
+    <string name="em_chat_room_detail_description_hint">暂无描述内容</string>
+    <string name="em_chat_room_detail_owner">创建者</string>
+    <string name="em_chat_room_detail_members">聊天室成员</string>
+    <string name="em_chat_room_detail_admins">管理员</string>
+    <string name="em_chat_room_detail_out">退出聊天室</string>
+    <string name="em_chat_room_detail_destroy">解散聊天室</string>
+    <string name="em_chat_room_detail_destroy_info">是否解散聊天室？</string>
+
+    <string name="em_chat_room_new_title">创建聊天室</string>
+    <string name="em_chat_room_new_save">保存</string>
+    <string name="em_chat_room_new_name_hint">聊天室名称</string>
+    <string name="em_chat_room_new_profile_hint">聊天室简介</string>
+    <string name="em_chat_room_new_name_cannot_be_empty">聊天室名称不能为空</string>
+
+    <string name="em_notify_title">系统通知</string>
+    <string name="em_notify_agree">同意</string>
+    <string name="em_notify_refuse">拒绝</string>
+    <string name="em_notify_delete">删除</string>
+    <string name="em_call_video_request">%1$s邀请您进行视频通话</string>
+    <string name="em_call_voice_request">%1$s邀请您进行语音通话</string>
+    <string name="em_call_voice_calling">正在等待对方接听</string>
+
+    <string name="about_me_baidu">百度功能模块</string>
+    <string name="em_about_me_set">设置</string>
+    <string name="about_background_manage">后台管理</string>
+    <string name="about_broadcast">系统广播</string>
+    <string name="em_about_me_feedback">意见反馈</string>
+    <string name="em_about_me_hx">关于环信IM</string>
+    <string name="em_about_me_developer">开发者服务</string>
+    <string name="em_set_security">账号与安全</string>
+    <string name="em_set_privacy">隐私</string>
+    <string name="em_set_message_set">新消息提醒</string>
+    <string name="em_set_common_set">通用</string>
+    <string name="em_about_me_service_set">诊断</string>
+    <string name="em_privacy_black">黑名单</string>
+    <string name="em_privacy_equipments">多端多设备管理</string>
+    <string name="em_about_hx_product_introduction">产品介绍</string>
+    <string name="em_about_hx_company_introduction">公司介绍</string>
+    <string name="em_about_hx_version">环信IM %1$s</string>
+    <string name="em_developer_version">当前SDK版本</string>
+    <string name="em_developer_appkey_self">自定义AppKey</string>
+    <string name="em_developer_appkey_self_add">添加自定义AppKey</string>
+    <string name="em_developer_appkey_delete">删除自定义AppKey？</string>
+    <string name="em_developer_appkey_default">默认配置</string>
+    <string name="em_developer_allow_token">允许使用token登录</string>
+    <string name="em_developer_from_server">优先从服务器获取消息</string>
+    <string name="em_developer_upload_to_hx">消息附件上传到环信服务器</string>
+    <string name="em_developer_upload_to_hx_notice">上传附件到环信服务器，关闭需自定义文件上传</string>
+    <string name="em_developer_msg_sort">消息排序</string>
+    <string name="em_developer_msg_sort_receive">按接收顺序</string>
+    <string name="em_developer_msg_sort_server">按服务器顺序</string>
+    <string name="em_developer_service_result_unfinished">未完成</string>
+    <string name="em_user_detail_title">个人资料</string>
+    <string name="team_schedule_title">队伍行程表</string>
+    <string name="user_more_detail">更多信息</string>
+    <string name="em_user_detail_avatar">头像</string>
+    <string name="em_user_detail_id">环信ID</string>
+    <string name="em_user_detail_nickname">昵称</string>
+    <string name="user_detail_name">用户名</string>
+    <string name="user_detail_tel">手机号</string>
+    <string name="user_detail_wechat">微信号</string>
+    <string name="user_detail_qq">QQ号</string>
+    <string name="user_detail_more">更多</string>
+    <string name="user_detail_gender">性别</string>
+    <string name="user_detail_signature">个性签名</string>
+    <string name="user_detail_real_name">真实姓名</string>
+    <string name="user_detail_identity_num">身份证号</string>
+    <string name="user_detail_email">电子邮箱</string>
+
+    <string name="team_detail_title">队伍资料</string>
+    <string name="team_detail_name">队伍名</string>
+    <string name="team_detail_destination_name">旅游地名</string>
+    <string name="team_detail_principal_name">队伍负责人</string>
+    <string name="team_detail_schedule">行程表</string>
+
+
+    <string name="em_login_out_hint">是否退出？</string>
+    <string name="em_developer_appkey_warning">当前appKey以及环境已经配置生效，更换当前appKey需重启客户端！</string>
+    <string name="em_developer_appkey_confirm">重启</string>
+
+    <string name="em_common_set_group_set">队伍设置</string>
+    <string name="em_common_set_chat_room_set">聊天室设置</string>
+
+    <string name="em_feedback_question_title">选择问题类型</string>
+    <string name="em_feedback_question_bug">BUG反馈</string>
+    <string name="em_feedback_et_hint">问题描述</string>
+    <string name="em_feedback_email_title">您的邮箱</string>
+    <string name="em_feedback_email_hint">请输入邮箱地址</string>
+    <string name="em_feedback_qq_title">您的QQ</string>
+    <string name="em_feedback_qq_hint">请输入QQ号</string>
+
+    <string name="em_conversation_list_search_hint">搜索</string>
+    <string name="em_friend_list_search_hint">搜索</string>
+    <string name="em_group_list_search_hint">搜索</string>
+    <string name="em_chat_room_list_search_hint">搜索</string>
+    <string name="em_black_list_search_hint">搜索</string>
+    <string name="em_search_group">队伍</string>
+    <string name="em_search_group_public">公开队伍</string>
+    <string name="em_search_group_public_hint">请输入公开队伍id进行搜索</string>
+    <string name="em_search_group_chat">队伍</string>
+    <string name="em_search_chat">聊天详情</string>
+    <string name="em_search_chat_room">聊天室</string>
+    <string name="em_search_black">黑名单</string>
+    <string name="em_search_conversation">会话</string>
+    <string name="em_search_contact">联系人</string>
+    <string name="em_search_add_contact">添加好友</string>
+    <string name="em_search_add_contact_hint">请输入用户ID</string>
+
+    <string name="em_public_group_information">公开队伍资料</string>
+    <string name="group_name">队伍名称</string>
+    <string name="group_owner">队伍负责人</string>
+    <string name="em_public_group_introduce">简介</string>
+    <string name="em_public_group_introduce_hint">暂无简介</string>
+    <string name="em_public_group_verification_information">填写验证信息</string>
+    <string name="em_public_group_request_to_join">请求加入</string>
+    <string name="em_public_group_add">加入队伍</string>
+    <string name="send_the_request_is">发送请求成功，等待队伍负责人同意</string>
+    <string name="Join_the_group_chat">加入队伍成功</string>
+
+    <string name="em_account_logoff_notification">下线通知</string>
+    <string name="em_account_connect_conflict">同一帐号已在其他设备登录</string>
+    <string name="em_account_user_remove">此用户已被移除</string>
+    <string name="em_account_user_forbidden">用户被服务器限制连接</string>
+
+    <string name="demo_take_video_capture">拍摄录像</string>
+
+    <string name="demo_no_disturb_time">设置时间段</string>
+    <string name="departure_datetime">设置出发时间</string>
+
+    <string name="push_message_style_title">消息详情</string>
+    <string name="push_incoming_call">您有新的通话消息</string>
+    <string name="push_message_style_simple">仅未读提示</string>
+    <string name="push_message_style_summary">显示消息详情</string>
+    <string name="push_message_show_detail">显示消息详情</string>
+    <string name="new_message_notify">新消息通知</string>
+    <string name="newnotify">接收新消息通知</string>
+    <string name="voice">声音</string>
+    <string name="shake">震动</string>
+    <string name="push_settings">消息免打扰</string>
+    <string name="push_use_fcm">消息推送使用 FCM</string>
+    <string name="push_no_disturb">推送消息免打扰(针对GCM、小米、华为等推送)</string>
+    <string name="push_no_disturb_on">开启</string>
+    <string name="push_only_on">只在夜间开启(22:00 - 7:00)</string>
+    <string name="push_no_disturb_off">关闭</string>
+    <string name="push_saving_settings">正在保存...</string>
+    <string name="push_save_failed">保存失败</string>
+    <string name="push_nick">iOS离线推送昵称</string>
+
+    <string name="input_new_team_name_hint">输入新队名</string>
+    <string name="input_new_destination_name_hint">输入新游玩景点名称</string>
+    <string name="input_new_principal_name_hint">输入新队伍负责人名称</string>
+    <string name="team_name_description">请在上方输入您想要更改的新队名</string>
+    <string name="destination_name_description">请在上方输入您想要更改的新游玩景点名称</string>
+    <string name="principal_name_description">请在上方输入您想要更换的新队伍负责人的用户名</string>
+
+    <string name="input_new_info_hint">输入新信息</string>
+    <string name="input_new_nick_hint">输入新昵称</string>
+    <string name="input_new_tel_hint">输入新手机号</string>
+    <string name="input_new_wechat_hint">输入新微信号</string>
+    <string name="input_new_qq_hint">输入新QQ号</string>
+    <string name="input_new_gender_hint">输入新性别</string>
+    <string name="input_new_signature_hint">输入新个性签名</string>
+    <string name="input_new_email_hint">输入新电子邮箱地址</string>
+    <string name="input_new_real_name_hint">输入新的真实姓名</string>
+    <string name="input_new_identity_num_hint">输入新的身份证号</string>
+    <string name="input_broadcast_hint">输入广播具体信息</string>
+    <string name="info_description">请在上方输入您想要更改的新信息</string>
+    <string name="nick_description">好的昵称可以让朋友更容易记住你</string>
+    <string name="tel_description">请在上方输入您想要更改的新手机号</string>
+    <string name="wechat_description">请在上方输入您想要更改的新微信号</string>
+    <string name="qq_description">请在上方输入您想要更改的新QQ号</string>
+    <string name="gender_description">请在上方输入您想要更改的新性别</string>
+    <string name="signature_description">请在上方输入您想要更改的新个性签名</string>
+    <string name="email_description">请在上方输入您想要更改的新电子邮箱地址</string>
+    <string name="real_name_description">请在上方输入您想要更改的新真实姓名</string>
+    <string name="identity_num_description">请在上方输入您想要更改的新身份证号</string>
+    <string name="broadcast_description">请在上方输入您想要发送的广播</string>
+    <string name="nickname_description">设置此昵称以后，在与iOS客户端demo聊天过程中，iOS一侧会显示此昵称而不是环信ID，如果对方使用安卓客户端则此设置不生效</string>
+    <string name="yangshengqi">使用扬声器播放语音</string>
+    <string name="call_option">通话设置</string>
+    <string name="offline_call_push">通话离线推送</string>
+    <string name="offline_push_no_disturb">推送消息免打扰</string>
+    <string name="offline_default_time_range">22:00~07:00</string>
+    <string name="offline_time_rang_error">起止时间不能相同</string>
+    <string name="demo_offline_nickname_update_success">推送昵称已更新</string>
+
+    <string name="title_msg_typing">显示输入状态</string>
+    <string name="chatroom_allow_owner_leave"> 允许聊天室队伍负责人离开</string>
+    <string name="delete_msg_when_exit_group">退出队伍时删除聊天数据</string>
+    <string name="set_transfer_file_by_userself">无需用户实现上传下载</string>
+    <string name="set_autodownload_thumbnail">自动下载图片缩略图</string>
+    <string name="auto_accept_group_invitation">自动同意队伍入队邀请</string>
+    <string name="delete_msg_when_exit_chat_room">退出聊天室时删除聊天数据</string>
+
+    <string name="confirm_forward_to">确定转发到：%1$s ?</string>
+
+    <string name="Select_the_contact">选择联系人</string>
+    <string name="emojicon_test_name">示例</string>
+    <string name="msg_conference_invite">快来加入会议</string>
+    <string name="tips_select_contacts_first">请先选择联系人 ~</string>
+    <string name="alert_request_tobe_talker">请求连麦 &#8230;</string>
+    <string name="alert_request_tobe_audience">请求下麦 &#8230;</string>
+    <string name="title_live">互动视频</string>
+    <string name="msg_live_invite">%1$s 邀请你参与互动视频 - %2$s</string>
+    <string name="tips_desk_share">你正在共享当前桌面</string>
+    <string name="tips_invite_to_join">%1$s 邀请您加入视频 …</string>
+    <string name="alert_window_permission_denied">当前App未被授予悬浮窗权限 :(</string>
+    <string name="call_no_float_permission">没有悬浮窗权限</string>
+    <string name="call_open_float_permission">是否前往打开悬浮窗权限?</string>
+
+    <string name="button_start_video_conference">开始视频会议 (%1$d)</string>
+    <string name="search">搜索</string>
+
+    <string name="em_map_title">位置信息</string>
+
+    <string name="delete_message">删除消息</string>
+    <string name="copy">复制</string>
+    <string name="forward">转发</string>
+    <string name="recall">撤回</string>
+    <string name="delete">删除</string>
+    <string name="resend">重发</string>
+    <string name="delete_voice">删除语音</string>
+    <string name="delete_video">删除视频</string>
+    <string name="delete_conversation">删除会话</string>
+    <string name="copy_message">复制消息</string>
+    <string name="em_send_forward_msg_success">已发送</string>
+    <string name="diagnose">诊断</string>
+    <string name="Current_version">当前版本</string>
+    <string name="Upload_the_log">上传日志中</string>
+    <string name="button_uploadlog">上传运行日志</string>
+    <string name="Not_Set">未设置</string>
+    <string name="Log_uploaded_successfully">日志上传成功</string>
+    <string name="Log_Upload_failed">log上传失败</string>
+    <string name="default_appkey">默认</string>
+    <string name="button_logout">退出登录</string>
+    <string name="Are_logged_out">正在退出登录..</string>
+
+    <string name="Agreed_to_your_group_chat_application">同意了你的队伍申请</string>
+    <string name="Invite_you_to_join_a_group_chat">邀请你加入了队伍</string>
+
+    <string name="Has_agreed_to_your_friend_request">已同意你的好友请求</string>
+    <string name="Has_agreed_to_your_friend_refused">已拒绝你的好友请求</string>
+    <string name="Request_to_add_you_as_a_friend">请求加你为好友</string>
+    <string name="Apply_to_the_group_of">申请加入队：</string>
+    <string name="invite_join_group">邀请加入队：</string>
+    <string name="Has_agreed_to">已同意%1$s的请求</string>
+    <string name="Has_refused_to">已拒绝</string>
+    <string name="accept_join_group">%s同意加入队</string>
+    <string name="refuse_join_group">%s拒绝加入队</string>
+
+    <string name="has_been_send">已发送</string>
+
+    <string name="the_current_chat_room_destroyed">当前聊天室已被创建者解散</string>
+    <string name="quiting_the_chat_room">正在退出聊天室……</string>
+    <string name="be_kicked_for_offline">离线被踢出聊天室</string>
+
+    <string name="demo_group_listener_onInvitationReceived">%1$s邀请您加入「%2$s」</string>
+    <string name="demo_group_listener_onRequestToJoinReceived">%1$s请求加入「%2$s」</string>
+    <string name="demo_group_listener_onRequestToJoinAccepted">%1$s已同意您加入「%2$s」</string>
+    <string name="demo_group_listener_onRequestToJoinDeclined">%1$s已拒绝您加入「%2$s」的申请</string>
+    <string name="demo_group_listener_onInvitationAccepted">您的入队邀请已经被%1$s接受</string>
+    <string name="demo_group_listener_onInvitationDeclined">%1$s已拒绝您的入队邀请</string>
+    <string name="demo_group_listener_onUserRemoved">您已被队伍管理员移出「%1$s」</string>
+    <string name="demo_group_listener_onGroupDestroyed">队伍「%1$s」已被解散</string>
+    <string name="demo_group_listener_onAutoAcceptInvitationFromGroup">您已加入「%1$s」</string>
+    <string name="demo_group_listener_onMuteListAdded">%1$s已被队伍负责人禁言</string>
+    <string name="demo_group_listener_onMuteListRemoved">%1$s已被队伍负责人恢复发言</string>
+    <string name="demo_group_listener_onWhiteListAdded">%1$s已被队伍负责人添加进白名单</string>
+    <string name="demo_group_listener_onWhiteListRemoved">%1$s已被队伍负责人移出白名单</string>
+    <string name="demo_group_listener_onAllMemberMuteStateChanged_mute">队伍负责人已开启全员禁言</string>
+    <string name="demo_group_listener_onAllMemberMuteStateChanged_not_mute">队伍负责人已关闭全员禁言</string>
+    <string name="demo_group_listener_onAdminAdded">%1$s已被队伍负责人指定为队伍管理员</string>
+    <string name="demo_group_listener_onAdminRemoved">%1$s已被队伍负责人取消队伍管理员权限</string>
+    <string name="demo_group_listener_onOwnerChanged">%1$s已将队伍负责人转移给%2$s</string>
+    <string name="demo_group_listener_onMemberJoined">%1$s已经加入队伍</string>
+    <string name="demo_group_listener_onMemberExited">%1$s已退出队伍</string>
+    <string name="demo_group_listener_onAnnouncementChanged">队伍公告内容已更新，请查看</string>
+    <string name="demo_group_listener_onSharedFileAdded">队伍文件%1$s已上传，请查看</string>
+    <string name="demo_group_listener_onSharedFileDeleted">队伍文件%1$s已被删除</string>
+
+    <string name="multi_device_contact_accept">接受%s的好友邀请[remote]</string>
+    <string name="multi_device_contact_decline">拒绝%s的好友邀请[remote]</string>
+    <string name="multi_device_contact_add">发送好友邀请给%s[remote]</string>
+    <string name="multi_device_contact_ban">加%s到黑名单[remote]</string>
+    <string name="multi_device_contact_allow">移除%s从黑名单[remote]</string>
+
+    <string name="multi_device_group_create">创建队伍[remote]</string>
+    <string name="multi_device_group_destroy">销毁队伍[remote]</string>
+    <string name="multi_device_group_join">加入队伍[remote]</string>
+    <string name="multi_device_group_leave">离开队伍[remote]</string>
+    <string name="multi_device_group_apply">申请加入队伍[remote]</string>
+    <string name="multi_device_group_apply_accept">接受%s入队申请[remote]</string>
+    <string name="multi_device_group_apply_decline">拒绝%s入队申请[remote]</string>
+    <string name="multi_device_group_invite">邀请%s加入队伍[remote]</string>
+    <string name="multi_device_group_invite_accept">接受%s入队邀请[remote]</string>
+    <string name="multi_device_group_invite_decline">拒绝%s入队邀请[remote]</string>
+    <string name="multi_device_group_kick">将%s从队伍移除[remote]</string>
+    <string name="multi_device_group_ban">将%s加入队伍的黑名单[remote]</string>
+    <string name="multi_device_group_allow">将%s从队伍的黑名单移除[remote]</string>
+    <string name="multi_device_group_block">停止接受队伍消息[remote]</string>
+    <string name="multi_device_group_unblock">可以接受队伍的消息[remote]</string>
+    <string name="multi_device_group_assign_owner">将队伍所有者权限转移给%1$s[remote]</string>
+    <string name="multi_device_group_add_admin">添加%s作为队伍的管理员[remote]</string>
+    <string name="multi_device_group_remove_admin">移除%s在队伍的管理员身份[remote]</string>
+    <string name="multi_device_group_add_mute">将%s在队伍中禁言[remote]</string>
+    <string name="multi_device_group_remove_mute">将%s在队伍中解除禁言[remote]</string>
+
+    <string name="multi_device_logged_in_device_kick_item">将设备移除</string>
+
+    <string name="demo_chat_room_listener_onChatRoomDestroyed">聊天室%1$s已经解散</string>
+    <string name="demo_chat_room_listener_onMemberJoined">%1$s已加入聊天室</string>
+    <string name="demo_chat_room_listener_onMemberExited">%1$s已退出聊天室</string>
+    <string name="demo_chat_room_listener_onRemovedFromChatRoom">%1$s已退出聊天室</string>
+    <string name="demo_chat_room_listener_onMuteListAdded">%1$s已被禁言</string>
+    <string name="demo_chat_room_listener_onMuteListRemoved">%1$s已被解除禁言</string>
+    <string name="demo_chat_room_listener_onWhiteListAdded">%1$s已被加入白名单</string>
+    <string name="demo_chat_room_listener_onWhiteListRemoved">%1$s已被移出白名单</string>
+    <string name="demo_chat_room_listener_onAllMemberMuteStateChanged_mute">全员禁言已开启</string>
+    <string name="demo_chat_room_listener_onAllMemberMuteStateChanged_note_mute">全员禁言已关闭</string>
+    <string name="demo_chat_room_listener_onAdminAdded">%1$s已成为管理员</string>
+    <string name="demo_chat_room_listener_onAdminRemoved">%1$s已被移出管理员</string>
+    <string name="demo_chat_room_listener_onOwnerChanged">%1$s已将聊天室转移给%2$s</string>
+    <string name="demo_chat_room_listener_onAnnouncementChanged">聊天室公告内容已更新，请查看</string>
+
+    <string name="demo_contact_listener_onContactAdded">您已经添加%1$s为好友</string>
+    <string name="demo_contact_listener_onContactDeleted">您已删除好友%1$s</string>
+    <string name="demo_contact_listener_onContactDeleted_by_other">%1$s已与您解除好友关系</string>
+    <string name="demo_contact_listener_onContactInvited">%1$s希望和您成为好友，请通过</string>
+    <string name="demo_contact_listener_onFriendRequestAccepted">您的好友申请已经通过</string>
+    <string name="demo_contact_listener_onFriendRequestDeclined">%1$s已拒绝您的好友申请</string>
+
+    <string name="alert_request_video">%1$s发来视频请求</string>
+    <string name="alert_request_voice">%1$s发来语音请求</string>
+
+    <string name="share_screen_ongoing">共享屏幕运行中...</string>
+
+    <string name="demo_call_options_min_video_kbps">最低视频码率（kbps）</string>
+    <string name="demo_call_options_not_set">未设置</string>
+    <string name="demo_call_options_max_video_kbps">最高视频码率（kbps）</string>
+    <string name="demo_call_options_max_frame_rate">最大帧率</string>
+    <string name="demo_call_options_external_audio_input">外部音频输入</string>
+    <string name="demo_call_options_audio_sample_rate">音频采样率</string>
+    <string name="demo_call_options_back_camera">后置摄像头</string>
+    <string name="demo_call_options_front_camera">前置摄像头</string>
+    <string name="demo_call_options_fix_video_resolution">修复视频分辨率</string>
+    <string name="demo_call_options_record_on_server">远程录制</string>
+    <string name="demo_call_options_merge_stream">合并流</string>
+    <string name="demo_call_options_watermark">水印</string>
+    <string name="demo_call_options_set_video_resolution">设置视频分辨率：%1$s</string>
+    <string name="demo_grid_file_null">没有获取到文件内容</string>
+</resources>

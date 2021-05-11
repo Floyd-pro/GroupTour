@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="44dp"
+    android:background="@color/teal_200"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="@dimen/em_toolbar_title_size"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txtTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/txtSensoryTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/txtRelativeHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+
+    <TextView
+        android:id="@+id/txtPhenomenon"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/txtWindDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+
+    <TextView
+        android:id="@+id/txtWindPower"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/txtUpdateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/btn_setAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/em_margin_30"
+        android:layout_gravity="center"
+        android:text="设置闹铃"
+        android:onClick="setAlarm"
+        android:background="@drawable/btn_nor_down" />
+
+
+</LinearLayout>

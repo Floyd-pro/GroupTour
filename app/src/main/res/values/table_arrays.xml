@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tableData">
+        <item>用户表</item>
+        <item>队伍表</item>
+        <item>行程表</item>
+    </string-array>
+</resources>

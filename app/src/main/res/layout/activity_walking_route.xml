@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/input_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="城市:"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/st_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="起点:"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+
+        <AutoCompleteTextView
+            android:id="@+id/st_node"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/em_common_search_height"
+            android:layout_marginLeft="@dimen/em_margin_10"
+            android:layout_marginRight="@dimen/em_margin_10"
+            android:layout_weight="0.88"
+            android:paddingLeft="10dp"
+            android:drawablePadding="@dimen/em_margin_10"
+            android:drawableLeft="@drawable/ease_search_icon"
+            android:text="天安门"
+            android:hint="@string/search"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:background="@drawable/demo_dialog_edit_bg_shape" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="城市:"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/ed_city"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="北京"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="终点:"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+
+        <AutoCompleteTextView
+            android:id="@+id/ed_node"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/em_common_search_height"
+            android:layout_marginLeft="@dimen/em_margin_10"
+            android:layout_marginRight="@dimen/em_margin_10"
+            android:layout_weight="0.88"
+            android:paddingLeft="10dp"
+            android:drawablePadding="@dimen/em_margin_10"
+            android:drawableLeft="@drawable/ease_search_icon"
+            android:text="北京大学"
+            android:hint="@string/search"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:background="@drawable/demo_dialog_edit_bg_shape" />
+
+        <Button
+            android:id="@+id/drive"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_nor_down"
+            android:onClick="searchButtonProcess"
+            android:text="查询路线"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+        <RelativeLayout
+            android:id="@+id/poi_detail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:background="#fff"
+            android:visibility="gone">
+
+            <ListView
+                android:id="@+id/poi_list"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_locResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/poi_detail"
+            android:scrollbars="vertical"
+            android:text=" "
+            android:visibility="gone"
+            android:textColor="#000000"
+            />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dip"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/customicon"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1.0"
+                android:onClick="changeRouteIcon"
+                android:text="自定义起终点图标"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linear_Navi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignBottom="@+id/linear1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:layout_marginBottom="65dp">
+
+            <Button
+                android:id="@+id/btn_bikeNavi"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_nor_down"
+                android:text="骑行导航" />
+
+            <Button
+                android:id="@+id/btn_walkNavi"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_nor_down"
+                android:text="步行导航" />
+
+            <Button
+                android:id="@+id/btn_walkNaviAR"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_nor_down"
+                android:visibility="gone"
+                android:text="AR步行导航" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:layout_marginBottom="10dip">
+
+            <Button
+                android:id="@+id/pre"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/pre_"
+                android:visibility="gone"
+                android:onClick="nodeClick" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/next_"
+                android:visibility="gone"
+                android:onClick="nodeClick" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_item_plus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_forcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5月12日" />
+
+        <TextView
+            android:id="@+id/tv_dayOfWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="星期一" />
+
+        <ImageView
+            android:id="@+id/img_weather"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/sun"/>
+
+        <TextView
+            android:id="@+id/tv_phenomenon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="晴"/>
+
+        <TextView
+            android:id="@+id/tv_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24℃/19℃"/>
+
+        <TextView
+            android:id="@+id/tv_wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3~4级"/>
+
+    </LinearLayout>
+
+</LinearLayout>

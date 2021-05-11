@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/input_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="城市:"-->
+<!--            android:textColor="@color/em_color_common_text_gray" />-->
+
+        <EditText
+            android:id="@+id/st_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京"
+            android:textColor="@color/em_color_common_text_black" />
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="目的地:"-->
+<!--            android:textColor="@color/em_color_common_text_gray" />-->
+
+        <EditText
+            android:id="@+id/et_destination"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/em_common_search_height"
+            android:layout_marginLeft="@dimen/em_margin_10"
+            android:layout_marginRight="@dimen/em_margin_10"
+            android:layout_weight="0.88"
+            android:paddingLeft="10dp"
+            android:drawablePadding="@dimen/em_margin_10"
+            android:drawableLeft="@drawable/ease_search_icon"
+            android:text="天安门"
+            android:hint="@string/search"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:background="@drawable/demo_dialog_edit_bg_shape"/>
+        <!--        <AutoCompleteTextView-->
+<!--            android:id="@+id/st_destination"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="0.88"-->
+<!--            android:text="天安门"-->
+<!--            android:textColor="@color/white" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_searchWeather"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="@drawable/btn_selector"-->
+<!--            android:text="搜索"-->
+<!--            android:onClick="destinationResearch"-->
+<!--            android:textColor="@color/white" />-->
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+        <RelativeLayout
+            android:id="@+id/poi_detail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:background="#fff"
+            android:visibility="gone">
+
+            <ListView
+                android:id="@+id/poi_list"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/weather"
+                android:onClick="showWeather"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_weatherResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/poi_detail"
+            android:scrollbars="vertical"
+            android:text=" "
+            android:textColor="#000000"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
