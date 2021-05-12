@@ -97,7 +97,7 @@
         <!-- 设置环信应用的AppKey -->
         <meta-data
             android:name="EASEMOB_APPKEY"
-            android:value="1120210330180118#grouptour" /> <!-- 声明SDK所需的service SDK核心功能 -->
+            android:value="在这里输入环信的AppKey" /> <!-- 声明SDK所需的service SDK核心功能 -->
         <service
             android:name="com.hyphenate.chat.EMChatService"
             android:exported="true" />
@@ -255,7 +255,7 @@
             android:process=":remote" /> <!-- AK鉴权 -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="R3CgcxNoVAKCBYWIb7fGpMEIgkT55vdm" /> <!-- &lt;!&ndash; autojs启动页 &ndash;&gt; -->
+            android:value="在这里输入百度地图AndroidSDK的AppKey" /> <!-- &lt;!&ndash; autojs启动页 &ndash;&gt; -->
         <!-- <activity -->
         <!-- android:name=".activity.SplashActivity" -->
         <!-- android:screenOrientation="portrait"> -->
