@@ -1309,7 +1309,8 @@ public class DestinationSettingActivity extends BaseActivity implements BaiduMap
         executorService = Executors.newSingleThreadExecutor();
         Future future = executorService.submit(new Callable() {
             public Object call() throws Exception {
-                if(DBUtil.updateTeam(myTeam.getTeamID(), "destination_name", mEditDestination.getText().toString().trim())
+                if(DBUtil.updateTeam(myTeam.getTeamID(), "destination_city", mEditStartCity.getText().toString().trim() + "市")
+                && DBUtil.updateTeam(myTeam.getTeamID(), "destination_name", mEditDestination.getText().toString().trim())
                 && DBUtil.updateTeam(myTeam.getTeamID(), "destination_longitude", destinationLoc.longitude)
                 && DBUtil.updateTeam(myTeam.getTeamID(), "destination_latitude", destinationLoc.latitude)) {
                     return "成功更改目的地：" + mEditDestination.getText().toString().trim();
