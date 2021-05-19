@@ -691,9 +691,9 @@ public class LocMapActivity extends BaseActivity implements SensorEventListener,
                             @Override
                             public void onClick(View view) {
                                 try {
-                                    CalendarReminderUtils.addCalendarEvent(LocMapActivity.this,"天目山旅游","明天就要出发去" + myTeam.getDestinationName() + "了哦，赶紧准备一下吧~\n   ——来自提姆游App",
+                                    CalendarReminderUtils.addCalendarEvent(LocMapActivity.this,myTeam.getDestinationName() + "旅游","明天就要出发去" + myTeam.getDestinationName() + "了哦，赶紧准备一下吧~\n   ——来自提姆游App",
                                             CommonUtils.stringToLong(CommonUtils.dateToString(myTeam.getDepartureDateTime(), "yyyy-MM-dd"),"yyyy-MM-dd") - 1000*3600*6,0);
-                                    CalendarReminderUtils.addCalendarEvent(LocMapActivity.this,"天目山旅游","马上就要出发去" + myTeam.getDestinationName() + "了哦，最后检查一下有没有什么东西落下了吧~\n   ——来自提姆游App",
+                                    CalendarReminderUtils.addCalendarEvent(LocMapActivity.this,myTeam.getDestinationName() + "旅游","马上就要出发去" + myTeam.getDestinationName() + "了哦，最后检查一下有没有什么东西落下了吧~\n   ——来自提姆游App",
                                             myTeam.getDepartureDateTime().getTime() - 1000*3600*2,0);
                                     ToastUtils.showToast("已为您设置出发前一晚18点整和出发前2小时的日历提醒！");
                                 } catch (ParseException e) {
